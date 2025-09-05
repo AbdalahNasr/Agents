@@ -1,0 +1,19 @@
+services:
+  - type: worker
+    name: job-automation
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python continuous_job_automation_robust.py
+    envVars:
+      - key: GMAIL_USER
+        value: ${GMAIL_USER}
+      - key: GMAIL_APP_PASSWORD
+        value: ${GMAIL_APP_PASSWORD}
+      - key: NOTION_TOKEN
+        value: ${NOTION_TOKEN}
+      - key: NOTION_DATABASE_ID
+        value: ${NOTION_DATABASE_ID}
+      - key: CV_PRIMARY_URL
+        value: ${CV_PRIMARY_URL}
+      - key: OPENAI_API_KEY
+        value: ${OPENAI_API_KEY}
