@@ -1,0 +1,1 @@
+worker: python continuous_job_automation_robust.py

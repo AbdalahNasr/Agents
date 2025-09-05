@@ -1,0 +1,16 @@
+{
+  "deployment_date": "2025-09-05T15:21:31.431954",
+  "platforms_supported": [
+    "Railway",
+    "Render",
+    "Google Colab",
+    "Replit",
+    "Heroku (via Fly.io)"
+  ],
+  "main_script": "cloud_automation.py",
+  "requirements": "requirements.txt",
+  "config_files": [
+    "railway.json",
+    "Procfile"
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "job_id": "linkedin_1234567890",
+    "job_title": "Junior Full Stack Developer",
+    "company": "TechCorp Egypt",
+    "application_date": "2025-09-05T16:45:50.402588",
+    "application_method": "linkedin",
+    "application_id": "linkedin_linkedin_1234567890_1757079950",
+    "status": "applied",
+    "job_url": "https://www.linkedin.com/jobs/view/1234567890",
+    "salary": "$3,000 - $4,500",
+    "location": "Cairo, Egypt"
+  },
+  {
+    "job_id": "indeed_9876543210",
+    "job_title": "Frontend Developer",
+    "company": "Digital Solutions Agency",
+    "application_date": "2025-09-05T16:45:51.404494",
+    "application_method": "email",
+    "application_id": "email_indeed_9876543210_1757079951",
+    "status": "applied",
+    "job_url": "https://www.indeed.com/viewjob?jk=9876543210",
+    "salary": "$2,500 - $3,500",
+    "location": "Remote"
+  },
+  {
+    "job_url": "https://bruntwork.zohorecruit.com/jobs/Careers/655395000219439793/Web-developer?source=LinkedInRecELR",
+    "job_title": "Web Developer",
+    "company": "Bruntwork",
+    "application_date": "2025-09-05T17:12:28.928038",
+    "application_method": "generic_form",
+    "status": "applied",
+    "result": {
+      "status": "applied",
+      "method": "generic_form",
+      "form_result": {},
+      "submit_result": {
+        "status": "error",
+        "error": "Message: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=139.0.7258.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff7ac2c3d85+79397]\n\tGetHandleVerifier [0x0x7ff7ac2c3de0+79488]\n\t(No symbol) [0x0x7ff7ac06c0fa]\n\t(No symbol) [0x0x7ff7ac073a99]\n\t(No symbol) [0x0x7ff7ac076b3c]\n\t(No symbol) [0x0x7ff7ac076c0f]\n\t(No symbol) [0x0x7ff7ac0c2887]\n\t(No symbol) [0x0x7ff7ac0c328c]\n\t(No symbol) [0x0x7ff7ac116537]\n\t(No symbol) [0x0x7ff7ac0eb1df]\n\t(No symbol) [0x0x7ff7ac113344]\n\t(No symbol) [0x0x7ff7ac0eaf73]\n\t(No symbol) [0x0x7ff7ac0b41b1]\n\t(No symbol) [0x0x7ff7ac0b4f43]\n\tGetHandleVerifier [0x0x7ff7ac58e1ed+3005069]\n\tGetHandleVerifier [0x0x7ff7ac58831d+2980797]\n\tGetHandleVerifier [0x0x7ff7ac5a7e0d+3110573]\n\tGetHandleVerifier [0x0x7ff7ac2dd6de+184190]\n\tGetHandleVerifier [0x0x7ff7ac2e516f+215567]\n\tGetHandleVerifier [0x0x7ff7ac2cc974+115220]\n\tGetHandleVerifier [0x0x7ff7ac2ccb29+115657]\n\tGetHandleVerifier [0x0x7ff7ac2b3268+11016]\n\tBaseThreadInitThunk [0x0x7ffa11d0e8d7+23]\n\tRtlUserThreadStart [0x0x7ffa135e8d9c+44]\n"
+      },
+      "timestamp": "2025-09-05T17:12:26.223597"
+    }
+  },
+  {
+    "job_url": "https://www.glassdoor.com/job-listing/react-developer-innovation-labs/JV_IC1234567890.htm",
+    "job_title": "React Developer",
+    "company": "Innovation Labs",
+    "application_date": "2025-09-05T17:30:29.209090",
+    "application_method": "generic_form",
+    "status": "applied",
+    "result": {
+      "status": "applied",
+      "method": "generic_form",
+      "form_result": {
+        "filled_fields": {},
+        "submitted_answers": {},
+        "cv_uploaded": null
+      },
+      "submit_result": {
+        "status": "error",
+        "error": "Message: element click intercepted: Element <button type=\"submit\">...</button> is not clickable at point (15, 270). Other element would receive the click: <div class=\"SearchBar_searchBarContainer__OgTMw\">...</div>\n  (Session info: chrome=139.0.7258.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6b0c03d85+79397]\n\tGetHandleVerifier [0x0x7ff6b0c03de0+79488]\n\t(No symbol) [0x0x7ff6b09ac0fa]\n\t(No symbol) [0x0x7ff6b0a0afd9]\n\t(No symbol) [0x0x7ff6b0a08972]\n\t(No symbol) [0x0x7ff6b0a059c1]\n\t(No symbol) [0x0x7ff6b0a048b1]\n\t(No symbol) [0x0x7ff6b09f60e8]\n\t(No symbol) [0x0x7ff6b0a2b19a]\n\t(No symbol) [0x0x7ff6b09f5996]\n\t(No symbol) [0x0x7ff6b0a2b3b0]\n\t(No symbol) [0x0x7ff6b0a53344]\n\t(No symbol) [0x0x7ff6b0a2af73]\n\t(No symbol) [0x0x7ff6b09f41b1]\n\t(No symbol) [0x0x7ff6b09f4f43]\n\tGetHandleVerifier [0x0x7ff6b0ece1ed+3005069]\n\tGetHandleVerifier [0x0x7ff6b0ec831d+2980797]\n\tGetHandleVerifier [0x0x7ff6b0ee7e0d+3110573]\n\tGetHandleVerifier [0x0x7ff6b0c1d6de+184190]\n\tGetHandleVerifier [0x0x7ff6b0c2516f+215567]\n\tGetHandleVerifier [0x0x7ff6b0c0c974+115220]\n\tGetHandleVerifier [0x0x7ff6b0c0cb29+115657]\n\tGetHandleVerifier [0x0x7ff6b0bf3268+11016]\n\tBaseThreadInitThunk [0x0x7ffa11d0e8d7+23]\n\tRtlUserThreadStart [0x0x7ffa135e8d9c+44]\n"
+      },
+      "timestamp": "2025-09-05T17:30:26.969581"
+    }
+  }
+]
