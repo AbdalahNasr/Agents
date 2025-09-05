@@ -140,6 +140,7 @@ class ContinuousJobAutomation:
                     <li><strong>Salary:</strong> {job_details.get('salary', 'N/A')}</li>
                     <li><strong>Job Type:</strong> {job_details.get('job_type', 'N/A')}</li>
                     <li><strong>Applied Date:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M')}</li>
+                    <li><strong>Job Link:</strong> <a href="{job_details.get('url', '#')}">View Original Job Posting</a></li>
                 </ul>
                 
                 <h3>📄 Application Details:</h3>
@@ -218,13 +219,13 @@ class ContinuousJobAutomation:
                         "rich_text": [
                             {
                                 "text": {
-                                    "content": f"🤖 Automated application for {job_details.get('title', 'Position')} at {job_details.get('company', 'Company')}. Applied via automated system."
+                                    "content": f"🤖 Automated application for {job_details.get('title', 'Position')} at {job_details.get('company', 'Company')}. Applied via automated system. Job URL: {job_details.get('url', 'N/A')}"
                                 }
                             }
                         ]
                     },
                     "Location": {
-                        "url": job_details.get('location_url', 'https://example.com')
+                        "url": job_details.get('url', 'https://example.com')
                     },
                     "Salary ": {
                         "rich_text": [
