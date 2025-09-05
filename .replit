@@ -1,0 +1,12 @@
+[run]
+command = "python continuous_job_automation_robust.py"
+
+[env]
+PYTHONPATH = "${PYTHONPATH}:."
+PYTHONUNBUFFERED = "1"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".replitignore"]
+
+[deployment]
+run = ["sh", "-c", "python continuous_job_automation_robust.py"]
