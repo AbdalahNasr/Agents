@@ -1,0 +1,84 @@
+# Environment variables and secrets
+config.env
+.env
+*.env
+
+# Google Drive credentials
+drive_credentials.json
+drive_token.pickle
+
+# Automation logs
+automation_log.json
+cloud_automation_log.json
+
+# CV files and personal data
+*.pdf
+*.docx
+*.txt
+CV_*/
+FIXED_CV_*/
+ATS_CV_*/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Job application history (contains personal data)
+job_application_history.json
+cv_management.json
+
+# Test files
+test_*.py
+*_test.py
+debug_*.py
+
+# Personal notes
+notes.txt
+TODO.txt
