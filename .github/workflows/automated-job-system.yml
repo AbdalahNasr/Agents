@@ -1,4 +1,4 @@
-name: Job Application Automation
+name: Automated Job Application System
 
 on:
   schedule:
