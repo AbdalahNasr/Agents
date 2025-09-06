@@ -1,0 +1,38 @@
+name: Automated Job Application System
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  job-automation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests schedule python-dotenv openai beautifulsoup4 selenium reportlab python-docx PyPDF2 google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client notion-client
+        
+    - name: Run job automation
+      env:
+        GMAIL_USER: ${{ secrets.GMAIL_USER }}
+        GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        CV_PRIMARY_URL: ${{ secrets.CV_PRIMARY_URL }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+        LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+        LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+      run: |
+        python simple_job_automation.py
