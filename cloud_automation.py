@@ -21,11 +21,11 @@ class CloudJobAutomation:
     
     def __init__(self):
         # Configuration (set these as environment variables in cloud)
-        self.gmail_user = os.getenv('GMAIL_USER', 'body16nasr16bn@gmail.com')
-        self.gmail_password = os.getenv('GMAIL_APP_PASSWORD', 'icje wcem lobn swrv')
-        self.cv_drive_link = os.getenv('CV_PRIMARY_URL', 'https://drive.google.com/file/d/1B19SyQeY_Lqjbapj1k7l66Vr9tCckcH7/view?usp=sharing')
-        self.notion_token = os.getenv('NOTION_TOKEN', 'ntn_iR6166475753n8yq1jYmEHI97LS0bcfb6wsr6heUSle8AE')
-        self.notion_database_id = os.getenv('NOTION_DATABASE_ID', '264024c1-4b97-8083-83ea-f29f6f395a4e')
+        self.gmail_user = os.getenv('GMAIL_USER', '')
+        self.gmail_password = os.getenv('GMAIL_APP_PASSWORD', '')
+        self.cv_drive_link = os.getenv('CV_PRIMARY_URL', '')
+        self.notion_token = os.getenv('NOTION_TOKEN', '')
+        self.notion_database_id = os.getenv('NOTION_DATABASE_ID', '')
         
         self.automation_log = "cloud_automation_log.json"
         self.daily_stats = {

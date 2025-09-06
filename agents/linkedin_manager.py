@@ -34,8 +34,8 @@ class LinkedInManager:
         self.openai_client = OpenAI(api_key=Config.OPENAI_API_KEY)
         
         # LinkedIn API configuration
-        self.client_id = "77rc79ebw6ear5"
-        self.client_secret = "WPL_AP1.45YEn6TeDD1J0oPM.7RI01g=="
+        self.client_id = os.getenv('LINKEDIN_CLIENT_ID', '')
+        self.client_secret = os.getenv('LINKEDIN_CLIENT_SECRET', '')
         self.redirect_uri = "http://localhost:8000/callback"
         self.api_base_url = "https://api.linkedin.com/v2"
         
